@@ -1,0 +1,36 @@
+settings =
+{
+	orientation =
+ 	{
+		default = "portrait",
+		supported =
+ 		{
+			"portrait",
+		},
+	},
+
+	iphone =
+	{
+		plist =
+		{
+            CFBundleIconFile = "Icon.png",
+            CFBundleIconFiles = {
+                    "Icon.png" , 
+                    "Icon@2x.png" , 
+                    "Icon-72.png" , 
+            },
+		},
+	},
+
+	android =
+	{
+		versionCode = "10",
+		versionName = "1.0",
+	},
+
+	androidPermissions =
+	{
+			"android.permission.ACCESS_FINE_LOCATION",
+			"android.permission.INTERNET",
+	},
+}
